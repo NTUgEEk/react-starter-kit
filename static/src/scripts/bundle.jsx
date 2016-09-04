@@ -1,5 +1,5 @@
 import React from 'react';
 import { render } from 'react-dom';
-import Wrapper from './wrapper.jsx';
+import CalcApp from './calcapp.jsx';
 
-render(<Wrapper/>, document.getElementById('main-app'));
+render(<CalcApp/>, document.getElementById('main-app'));
